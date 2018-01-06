@@ -12,6 +12,6 @@
     </Window.DataContext>
     <Grid>
         <oxy:PlotView Model="{Binding Model}"/>
-        <Button Content="Add series 3" Command="{Binding AddSeriesCommand}" HorizontalAlignment="Left" Height="29" Margin="10" VerticalAlignment="Top" Width="50"/>
+        <Button Content="Add series 3" Command="{Binding AddSeriesCommand}" HorizontalAlignment="Left" Height="29" Margin="10" VerticalAlignment="Top" Width="100"/>
     </Grid>
 </Window>
